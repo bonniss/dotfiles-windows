@@ -1,6 +1,6 @@
-$account = "jayharris"
-$repo    = "dotfiles-windows"
-$branch  = "master"
+$account = "bonniss"  # git account
+$repo    = "dotfiles-windows"   # git repo
+$branch  = "master"   # git branch
 
 $dotfilesTempDir = Join-Path $env:TEMP "dotfiles"
 if (![System.IO.Directory]::Exists($dotfilesTempDir)) {[System.IO.Directory]::CreateDirectory($dotfilesTempDir)}
